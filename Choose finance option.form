@@ -1,0 +1,43 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "f133611"
+  },
+  "schemaVersion": 19,
+  "id": "choose-finance-option-141zfgp",
+  "components": [
+    {
+      "label": "Select",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0qjndwb",
+        "columns": null
+      },
+      "id": "Field_036749l",
+      "key": "select_p6ge9h"
+    },
+    {
+      "label": "Continue",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_1u9ov4i",
+        "columns": null
+      },
+      "id": "Field_1vihqhr"
+    }
+  ],
+  "type": "default"
+}

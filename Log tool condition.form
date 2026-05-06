@@ -1,0 +1,33 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e103445"
+  },
+  "schemaVersion": 19,
+  "id": "Form_1f1l4fc",
+  "components": [
+    {
+      "label": "Text area",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1d17oh9",
+        "columns": null
+      },
+      "id": "Field_0xyjysu",
+      "key": "textarea_a12w5pf"
+    },
+    {
+      "label": "Button",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_0r4b3ef",
+        "columns": null
+      },
+      "id": "Field_1fqwsjn"
+    }
+  ],
+  "type": "default"
+}

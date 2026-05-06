@@ -1,0 +1,43 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "f133611"
+  },
+  "schemaVersion": 19,
+  "id": "choose-to-cancel-order-or-continue-without-finance-17noxun",
+  "components": [
+    {
+      "label": "Cancel Order?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0mel4qi",
+        "columns": null
+      },
+      "id": "Field_065oias",
+      "key": "select_etl1pg"
+    },
+    {
+      "label": "Continue",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_1hojupg",
+        "columns": null
+      },
+      "id": "Field_0s5ch42"
+    }
+  ],
+  "type": "default"
+}

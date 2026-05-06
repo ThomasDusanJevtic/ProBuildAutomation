@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "label": "Select Product",
+      "values": [
+        {
+          "label": "Timber",
+          "value": "Timber"
+        },
+        {
+          "label": "Insulation",
+          "value": "Insulation"
+        },
+        {
+          "label": "PlasterBoard",
+          "value": "PlasterBoard"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1oqhm2n",
+        "columns": null
+      },
+      "id": "Field_0c6inb5",
+      "key": "ProductID",
+      "searchable": false,
+      "disabled": false
+    },
+    {
+      "label": "Continue",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_1j3eci9",
+        "columns": null
+      },
+      "id": "Field_05arz1r"
+    }
+  ],
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.44.0"
+  },
+  "schemaVersion": 19,
+  "id": "choose-product-1y751a7",
+  "type": "default"
+}

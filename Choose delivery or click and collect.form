@@ -1,0 +1,43 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e103445"
+  },
+  "schemaVersion": 19,
+  "id": "choose-delivery-or-click-and-collect-19f8psn",
+  "components": [
+    {
+      "label": "Select",
+      "values": [
+        {
+          "label": "Delivery",
+          "value": "true"
+        },
+        {
+          "label": "Collect",
+          "value": "false"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1r6z1lt",
+        "columns": null
+      },
+      "id": "Field_1nc2c2w",
+      "key": "select_CollectOrDelivery"
+    },
+    {
+      "label": "Continue",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_0f3e1lq",
+        "columns": null
+      },
+      "id": "Field_0dygixo"
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,34 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "f133611"
+  },
+  "schemaVersion": 19,
+  "id": "input-delivery-address-1xjuqnl",
+  "components": [
+    {
+      "label": "Input Delivery Address",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1l3iwzw",
+        "columns": null
+      },
+      "id": "Field_1e70xc9",
+      "key": "textarea_dxfkco"
+    },
+    {
+      "label": "Continue",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_1l0z2gi",
+        "columns": null
+      },
+      "id": "Field_1r0d02i",
+      "properties": { }
+    }
+  ],
+  "type": "default"
+}

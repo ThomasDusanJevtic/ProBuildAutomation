@@ -1,0 +1,32 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "f133611"
+  },
+  "schemaVersion": 19,
+  "id": "confirm-booking-1wpu9wp",
+  "components": [
+    {
+      "text": "Confirm Hire Booking",
+      "type": "text",
+      "layout": {
+        "row": "Row_00gea9z",
+        "columns": null
+      },
+      "id": "Field_09jk1n2"
+    },
+    {
+      "label": "Confirm",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_132rmtb",
+        "columns": null
+      },
+      "id": "Field_11d9ey7"
+    }
+  ],
+  "type": "default"
+}

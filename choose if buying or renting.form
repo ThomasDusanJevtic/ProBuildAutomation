@@ -1,0 +1,44 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "f133611"
+  },
+  "schemaVersion": 19,
+  "id": "choose-if-buying-or-renting-14nbhh6",
+  "components": [
+    {
+      "label": "Buying or Renting?",
+      "values": [
+        {
+          "label": "Buying",
+          "value": "True"
+        },
+        {
+          "label": "Renting",
+          "value": "False"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1e8omg7",
+        "columns": null
+      },
+      "id": "Field_0q57wfn",
+      "key": "select_fvgi6r"
+    },
+    {
+      "label": "Continue",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_154h7ok",
+        "columns": null
+      },
+      "id": "Field_0c9oimt",
+      "properties": { }
+    }
+  ],
+  "type": "default"
+}
