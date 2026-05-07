@@ -1,0 +1,534 @@
+{
+  "actors": [
+    {
+      "id": "6bc58a3b-671b-474d-888c-f06f7a8348d5",
+      "text": "ProBuild Supplies LTD",
+      "type": "istar.Actor",
+      "x": 141,
+      "y": 332,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd",
+          "text": "Fulfill customer order",
+          "type": "istar.Goal",
+          "x": 372,
+          "y": 370,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2b49c8fe-8dd9-488f-b832-e4c48bb33472",
+          "text": "check if delivery or click and collect",
+          "type": "istar.Task",
+          "x": 375,
+          "y": 461,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "026e2b48-af28-4211-a985-ecb11579ae35",
+          "text": "Confirm booking and take take deposit",
+          "type": "istar.Task",
+          "x": 162,
+          "y": 461,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7a253046-1ea7-41b8-b1d4-8aade952cbd9",
+          "text": "Tool availability",
+          "type": "istar.Resource",
+          "x": 314,
+          "y": 577,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83",
+          "text": "Fulfill Hire order",
+          "type": "istar.Goal",
+          "x": 223,
+          "y": 370,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a5cad0c9-0d72-4bbc-aaa8-5fab461e2e31",
+          "text": "Maintain real time stock levels",
+          "type": "istar.Task",
+          "x": 454,
+          "y": 559,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "33624458-ef15-479e-8539-46f247c16628",
+          "text": "collect tools from fixpro Ltd",
+          "type": "istar.Task",
+          "x": 645,
+          "y": 697,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7ce55716-ead3-47b1-b69e-4475684ca842",
+          "text": "Keep good stock of tools and materials in warehouse",
+          "type": "istar.Goal",
+          "x": 627,
+          "y": 558,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5",
+      "text": "Customer",
+      "type": "istar.Actor",
+      "x": 127,
+      "y": 54,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "5c0f2e6b-79aa-4100-bc73-46d3bb33e4c2",
+      "text": "FixPro Ltd",
+      "type": "istar.Actor",
+      "x": 144,
+      "y": 790,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "9d8ba18c-95cf-4230-8a2c-777631e2d090",
+          "text": "Collect and service tools weekly",
+          "type": "istar.Task",
+          "x": 232,
+          "y": 846,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "63cf709a-cf77-4a52-b99d-75f73b45ce31",
+          "text": "Ensure safety compliance and operational readiness",
+          "type": "istar.Quality",
+          "x": 172,
+          "y": 910,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "43b42bbe-006f-42f0-96e8-6593c602c97b",
+      "text": "FinTrust UK",
+      "type": "istar.Actor",
+      "x": 733,
+      "y": 75,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "0f7cd7d0-230f-4930-aa7f-5776fb832154",
+          "text": "Process credit application",
+          "type": "istar.Task",
+          "x": 798,
+          "y": 109,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "9d92ff72-0d65-464a-8132-03439cbde7cb",
+      "text": "purchase Tools & materials",
+      "type": "istar.Resource",
+      "x": 282,
+      "y": 97,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5",
+      "target": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd"
+    },
+    {
+      "id": "1e45478c-6b96-4bb9-a6b4-9c2128057ae2",
+      "text": "Hire Tools & materials",
+      "type": "istar.Resource",
+      "x": 140,
+      "y": 172,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5",
+      "target": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83"
+    },
+    {
+      "id": "548e6904-67b5-4e31-83e3-5032c3c02278",
+      "text": "Hand over Tools to customer",
+      "type": "istar.Resource",
+      "x": 353,
+      "y": 56,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "d124d9cc-8851-4a49-9d00-2cdeeb91f2cd",
+      "text": "Hand over tools to customer",
+      "type": "istar.Resource",
+      "x": 32,
+      "y": 163,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "cfa5185b-24c1-4bac-b919-0bdeff59aa33",
+      "text": "Return tools",
+      "type": "istar.Resource",
+      "x": 242,
+      "y": 200,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "623f3324-cbcb-43c2-bfbe-359cb29b244b",
+      "text": "Maintenance and servicing of rental tools",
+      "type": "istar.Quality",
+      "x": 278,
+      "y": 682,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "7a253046-1ea7-41b8-b1d4-8aade952cbd9",
+      "target": "9d8ba18c-95cf-4230-8a2c-777631e2d090"
+    },
+    {
+      "id": "61fd2c36-cbec-4da7-ab70-e17695df9576",
+      "text": "Send back tools to Probuild",
+      "type": "istar.Task",
+      "x": 491,
+      "y": 790,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "9d8ba18c-95cf-4230-8a2c-777631e2d090",
+      "target": "33624458-ef15-479e-8539-46f247c16628"
+    },
+    {
+      "id": "b909f8e0-9139-4324-921f-5bb348d261b3",
+      "text": "Pay back credit in installments",
+      "type": "istar.Task",
+      "x": 467,
+      "y": 8,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "43b42bbe-006f-42f0-96e8-6593c602c97b",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "ad7a3171-1d3b-4463-a5c9-6691b0fa86f7",
+      "text": "Provide Credit for eligible customers",
+      "type": "istar.Goal",
+      "x": 560,
+      "y": 179,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd",
+      "target": "0f7cd7d0-230f-4930-aa7f-5776fb832154"
+    },
+    {
+      "id": "908df7d3-f451-4a7d-9b36-b3bde0ec75a5",
+      "text": "Send ProBuild the credit once approved",
+      "type": "istar.Task",
+      "x": 747,
+      "y": 270,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "0f7cd7d0-230f-4930-aa7f-5776fb832154",
+      "target": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd"
+    }
+  ],
+  "links": [
+    {
+      "id": "2f46bf89-1184-434b-a1be-2f733f346e89",
+      "type": "istar.DependencyLink",
+      "source": "908df7d3-f451-4a7d-9b36-b3bde0ec75a5",
+      "target": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd"
+    },
+    {
+      "id": "5c83f7ee-6caa-444b-a878-5d4bac78f56e",
+      "type": "istar.DependencyLink",
+      "source": "0f7cd7d0-230f-4930-aa7f-5776fb832154",
+      "target": "908df7d3-f451-4a7d-9b36-b3bde0ec75a5"
+    },
+    {
+      "id": "42f47f02-fa07-4346-a7e7-66f5ebbe6b55",
+      "type": "istar.DependencyLink",
+      "source": "ad7a3171-1d3b-4463-a5c9-6691b0fa86f7",
+      "target": "0f7cd7d0-230f-4930-aa7f-5776fb832154"
+    },
+    {
+      "id": "3ef77aba-b2f5-4393-bbe6-768075916c85",
+      "type": "istar.DependencyLink",
+      "source": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd",
+      "target": "ad7a3171-1d3b-4463-a5c9-6691b0fa86f7"
+    },
+    {
+      "id": "e200b8d4-195e-4abf-8f8b-fa1201b6922c",
+      "type": "istar.DependencyLink",
+      "source": "b909f8e0-9139-4324-921f-5bb348d261b3",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "dac3dd88-74c9-43d7-b47e-ba4755c0abc4",
+      "type": "istar.DependencyLink",
+      "source": "43b42bbe-006f-42f0-96e8-6593c602c97b",
+      "target": "b909f8e0-9139-4324-921f-5bb348d261b3"
+    },
+    {
+      "id": "d17ab584-d5e8-486f-a6b3-3f2efe169d3a",
+      "type": "istar.DependencyLink",
+      "source": "61fd2c36-cbec-4da7-ab70-e17695df9576",
+      "target": "33624458-ef15-479e-8539-46f247c16628"
+    },
+    {
+      "id": "43868e68-db32-4483-bd04-76bca0ab539c",
+      "type": "istar.DependencyLink",
+      "source": "9d8ba18c-95cf-4230-8a2c-777631e2d090",
+      "target": "61fd2c36-cbec-4da7-ab70-e17695df9576"
+    },
+    {
+      "id": "e60d0431-6285-4c8c-bb75-eb299c8a868c",
+      "type": "istar.DependencyLink",
+      "source": "623f3324-cbcb-43c2-bfbe-359cb29b244b",
+      "target": "9d8ba18c-95cf-4230-8a2c-777631e2d090"
+    },
+    {
+      "id": "ca0a30b3-bfd7-4aaa-8d6d-37b8871876d8",
+      "type": "istar.DependencyLink",
+      "source": "7a253046-1ea7-41b8-b1d4-8aade952cbd9",
+      "target": "623f3324-cbcb-43c2-bfbe-359cb29b244b"
+    },
+    {
+      "id": "437be2ad-2293-468d-b85b-2f526accecef",
+      "type": "istar.DependencyLink",
+      "source": "cfa5185b-24c1-4bac-b919-0bdeff59aa33",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "c29c7f64-6a29-48f5-9e18-8806f7ea359b",
+      "type": "istar.DependencyLink",
+      "source": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83",
+      "target": "cfa5185b-24c1-4bac-b919-0bdeff59aa33"
+    },
+    {
+      "id": "8ec88cf4-b1cf-4647-af40-c10a099821f1",
+      "type": "istar.DependencyLink",
+      "source": "d124d9cc-8851-4a49-9d00-2cdeeb91f2cd",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "b63d9dcf-7e84-417f-98eb-7be243f56d3f",
+      "type": "istar.DependencyLink",
+      "source": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83",
+      "target": "d124d9cc-8851-4a49-9d00-2cdeeb91f2cd"
+    },
+    {
+      "id": "dc877cc4-c555-4bed-96da-beb2896f61a4",
+      "type": "istar.DependencyLink",
+      "source": "548e6904-67b5-4e31-83e3-5032c3c02278",
+      "target": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5"
+    },
+    {
+      "id": "4039654c-72bc-4231-b929-a65e463c05d4",
+      "type": "istar.DependencyLink",
+      "source": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd",
+      "target": "548e6904-67b5-4e31-83e3-5032c3c02278"
+    },
+    {
+      "id": "eec9e45a-abfd-4c41-9ac7-0c2e29a33604",
+      "type": "istar.DependencyLink",
+      "source": "1e45478c-6b96-4bb9-a6b4-9c2128057ae2",
+      "target": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83"
+    },
+    {
+      "id": "42227345-697e-4d12-8ec6-923c56929915",
+      "type": "istar.DependencyLink",
+      "source": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5",
+      "target": "1e45478c-6b96-4bb9-a6b4-9c2128057ae2"
+    },
+    {
+      "id": "5905b20a-853a-4586-9354-3f9ce11cc3df",
+      "type": "istar.DependencyLink",
+      "source": "9d92ff72-0d65-464a-8132-03439cbde7cb",
+      "target": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd"
+    },
+    {
+      "id": "44e5ea1c-d7fb-41b5-b21b-9dab3c24c41e",
+      "type": "istar.DependencyLink",
+      "source": "fc02f9c9-05a3-445c-9e76-720d7ecc05d5",
+      "target": "9d92ff72-0d65-464a-8132-03439cbde7cb"
+    },
+    {
+      "id": "9e1c38bc-1ca1-4cd7-96d8-3c284d15e5ba",
+      "type": "istar.AndRefinementLink",
+      "source": "493eff3c-6521-46c4-bdbd-567d8b4ec5fd",
+      "target": "2b49c8fe-8dd9-488f-b832-e4c48bb33472"
+    },
+    {
+      "id": "2cf1f96c-5dff-43c1-8095-e0e0b02d743d",
+      "type": "istar.NeededByLink",
+      "source": "7a253046-1ea7-41b8-b1d4-8aade952cbd9",
+      "target": "026e2b48-af28-4211-a985-ecb11579ae35"
+    },
+    {
+      "id": "0c921cba-22a9-424d-975a-9974edd85eba",
+      "type": "istar.AndRefinementLink",
+      "source": "7dc0e6d8-45e3-4133-965e-6b907eb3ae83",
+      "target": "026e2b48-af28-4211-a985-ecb11579ae35"
+    },
+    {
+      "id": "5e968b25-69ff-4e31-8ccf-5e1760d95cbf",
+      "type": "istar.NeededByLink",
+      "source": "7a253046-1ea7-41b8-b1d4-8aade952cbd9",
+      "target": "a5cad0c9-0d72-4bbc-aaa8-5fab461e2e31"
+    },
+    {
+      "id": "b2a99d8a-749f-46b8-bd6b-d6a3a77780be",
+      "type": "istar.ContributionLink",
+      "source": "9d8ba18c-95cf-4230-8a2c-777631e2d090",
+      "target": "63cf709a-cf77-4a52-b99d-75f73b45ce31",
+      "label": "help"
+    },
+    {
+      "id": "7ca39a5b-5c7b-4324-b94f-5334540a6e42",
+      "type": "istar.NeededByLink",
+      "source": "7a253046-1ea7-41b8-b1d4-8aade952cbd9",
+      "target": "2b49c8fe-8dd9-488f-b832-e4c48bb33472"
+    },
+    {
+      "id": "4c1dcbf2-e72f-4166-a8c1-b3ae3b8f10f4",
+      "type": "istar.AndRefinementLink",
+      "source": "33624458-ef15-479e-8539-46f247c16628",
+      "target": "7ce55716-ead3-47b1-b69e-4475684ca842"
+    },
+    {
+      "id": "a81ffcf4-7479-493b-beb4-b0f28076131d",
+      "type": "istar.AndRefinementLink",
+      "source": "a5cad0c9-0d72-4bbc-aaa8-5fab461e2e31",
+      "target": "7ce55716-ead3-47b1-b69e-4475684ca842"
+    }
+  ],
+  "display": {
+    "493eff3c-6521-46c4-bdbd-567d8b4ec5fd": {
+      "width": 150.140625,
+      "height": 55.84375
+    },
+    "2b49c8fe-8dd9-488f-b832-e4c48bb33472": {
+      "width": 131.640625,
+      "height": 67.84375
+    },
+    "026e2b48-af28-4211-a985-ecb11579ae35": {
+      "width": 130.140625,
+      "height": 107.84375
+    },
+    "7a253046-1ea7-41b8-b1d4-8aade952cbd9": {
+      "width": 110.140625,
+      "height": 56.34375
+    },
+    "a5cad0c9-0d72-4bbc-aaa8-5fab461e2e31": {
+      "width": 151.640625,
+      "height": 78.84375
+    },
+    "7ce55716-ead3-47b1-b69e-4475684ca842": {
+      "width": 119.140625,
+      "height": 68.84375
+    },
+    "63cf709a-cf77-4a52-b99d-75f73b45ce31": {
+      "width": 157.18798828125,
+      "height": 75.85150146484375
+    },
+    "9d92ff72-0d65-464a-8132-03439cbde7cb": {
+      "width": 70.140625,
+      "height": 54.84375
+    },
+    "548e6904-67b5-4e31-83e3-5032c3c02278": {
+      "width": 97.140625,
+      "height": 39.84375
+    },
+    "d124d9cc-8851-4a49-9d00-2cdeeb91f2cd": {
+      "width": 98.140625,
+      "height": 41.84375
+    },
+    "b909f8e0-9139-4324-921f-5bb348d261b3": {
+      "width": 130.140625,
+      "height": 48.84375
+    },
+    "ad7a3171-1d3b-4463-a5c9-6691b0fa86f7": {
+      "width": 112.140625,
+      "height": 46.84375
+    },
+    "908df7d3-f451-4a7d-9b36-b3bde0ec75a5": {
+      "width": 135.140625,
+      "height": 69.84375
+    },
+    "b63d9dcf-7e84-417f-98eb-7be243f56d3f": {
+      "vertices": [
+        {
+          "x": 162,
+          "y": 255
+        },
+        {
+          "x": 120,
+          "y": 213
+        }
+      ]
+    },
+    "fc02f9c9-05a3-445c-9e76-720d7ecc05d5": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Thu, 19 Feb 2026 14:40:35 GMT",
+  "diagram": {
+    "width": 1057,
+    "height": 1036,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
